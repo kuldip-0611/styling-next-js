@@ -1,8 +1,9 @@
+import styles from '../styles/about.module.css';
 const about = ()=>{
 return (
     <>
         <h2>About Page</h2>
-        <button className="btn btn-primary">About</button>
+        <button className={styles.highlight}>About</button>
     </>
 )
 }
