@@ -1,9 +1,9 @@
-import styles from '../styles/about.module.css';
+import scss from '../styles/about.module.scss';
 const about = ()=>{
 return (
     <>
         <h2>About Page</h2>
-        <button className={styles.highlight}>About</button>
+        <button className={scss.highlight}>About</button>
     </>
 )
 }
